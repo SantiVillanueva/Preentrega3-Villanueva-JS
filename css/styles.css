@@ -1,0 +1,54 @@
+/*reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+h1{
+    text-align: center;
+    padding: 1rem;
+    background-color: antiquewhite;
+}
+main #contenedor-stock {
+    
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    flex-direction: row;
+  }
+
+main{
+    background-color: antiquewhite;
+}
+
+.producto{
+    background-color: rgb(248, 212, 165);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 2rem;
+    padding: 1rem;
+    box-shadow: 1px 1px 5px black;
+}
+.btncomprar{
+      background-color: #384674;
+      color: white;
+      font-size: 16px;
+      font-weight: bold;
+      padding: 0 1rem 0 1rem;
+      box-shadow: 1px 1px 5px black;
+      border-radius: 35px;
+      border: 1px groove black;
+}
+
+#carrito-compra {
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+  
+}
+h2{
+    
+    text-align: center;
+}
